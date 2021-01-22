@@ -1,0 +1,10 @@
+Backend:
+
+Create Package: 
+> npm init -y
+
+Defendencies:
+> npm install express sequelize mysql2 body-parser cors --save
+
+Running the backen (so that we can't run the app each time)
+> npm i -D nodemon ("start": 'nodemon index.js')
